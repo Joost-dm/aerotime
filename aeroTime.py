@@ -195,7 +195,7 @@ def get_time(driver, target_time):
             target_time = random.randint(int(target_time) - 10, int(target_time) + 10)
         print('начисленно: ' + str(target_time) + 'мин.')
 
-        # Подмена заменов таймера, отправка данных и закрытие темы
+        # Подмена замеров таймера, отправка данных и закрытие темы
         driver.execute_script('closetimer();')
         driver.execute_script('elapsed_time = 0 + ":" + ' + str(target_time) + ' + ":" + ' + str(random.randint(0, 5)) +
                               str(random.randint(0, 9)))
@@ -254,8 +254,6 @@ def get_exam(driver, started):
         except NoSuchElementException:
             print('Done')
 
-
-#Подопытный табельный: 21077
 
 if __name__ == '__main__':
     employee_id, exam_type = input_data()
