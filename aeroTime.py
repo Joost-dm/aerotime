@@ -89,8 +89,8 @@ def get_exam_list(sid, exam_type):
                                            "/Q02/exam.html&aicc_sid" +
                "="+ sid + "&aicc_url=http://lms.aeroflot.ru/webcmi/cmi.php",
         '3. Организация перевозок': "http://lms.aeroflot.ru/show_res_redirect.php?au=A000008789&link=data/MVP_DOB_2016"+
-                                    "/EXAM/exam.html&aicc" +
-               "_sid="+ sid + "&aicc_url=http://lms.aeroflot.ru/webcmi/cmi.php",
+                    "/EXAM1/exam.html&aicc" +
+                    "_sid="+ sid + "&aicc_url=http://lms.aeroflot.ru/webcmi/cmi.php",
         '4. Сервис': "http://lms.aeroflot.ru/show_res_redirect.php?au=A000008896&link=data/Service_30_08_18/exam_new2/exa" +
                      "m.html&aicc_sid="+ sid + "&aicc_url=http://lms.aeroflot.ru/webcmi/cmi.php",
         '5. B737': "http://lms.aeroflot.ru/show_res_redirect.php?au=A000008750&link=Data/DOB_Construction_2018/Constr_B737/Q" +
